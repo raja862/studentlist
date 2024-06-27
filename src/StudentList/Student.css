@@ -1,0 +1,156 @@
+.header{
+    position: relative;
+     background-color: aliceblue;
+     height: 80px;
+     width: 100%;
+     box-shadow: 10px 10px 5px lightblue;
+     border-bottom: 1px solid black;
+     background-color: rgb(0,55,58);
+ }
+ .h1head{
+     position: absolute;
+     left: 193px;
+     top: 22px;
+     color: white;
+     font-family: "Nunito", sans-serif;
+     font-weight: bolder;
+ 
+     /* font-family: "Playwrite ES Deco", cursive; */
+    
+ }
+ 
+ .greatimg{
+     position: absolute;
+     top: 18px;
+     left: 32px;
+ }
+ 
+ .leftside{
+     position: relative;
+     height: 495px;
+     width: 16%;
+     background-color: aliceblue;
+     float: left;
+     border-right: 1px solid black;
+     background-color: rgb(0,55,58);
+     box-shadow: 10px 10px 5px lightblue;
+    
+     
+ 
+ }
+
+
+ /* .greatimge{
+    position: absolute;
+   bottom: -180px;
+ width: 600px;
+ overflow: hidden;
+left: -40px;
+    
+ } */
+ .lefth5{
+ position: absolute;
+ left: 45px;
+ top: 20px;
+ color:white;
+ cursor: pointer;
+ 
+ 
+ 
+ }
+ .icons{
+     position: relative;
+ }
+ 
+ i{
+     position: absolute;
+     right:130px ;
+ }
+ 
+ .rightside{
+     position: relative;
+     height: 475px;
+     width: 83%;
+     margin-top: 20px;
+     background-color: aliceblue;
+     float: right;
+     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ display: flex;
+ box-shadow: 10px 10px 10px 10px lightblue;
+ 
+ }
+ .inputs{
+ 
+     position: absolute;
+     left: 860px;
+     top:10px;
+     border:none;
+     cursor: pointer;
+     padding: 3px;
+ }
+ 
+ input:hover{
+     box-shadow: 20px 20px 20px lightblue;
+ 
+ }
+ 
+ 
+ 
+ #tableright{
+ position: absolute;
+ top: 50px;
+ }
+ #nave{
+ position: absolute;
+ top:90%;
+ left: 89%;
+ }   
+ .h1student{
+ position: absolute;
+ top: 5px;
+ left: 40%;
+ font-family: "Nunito", sans-serif;
+   font-weight:800;
+ /* font-weight: bolder; */
+    
+ }
+ .tablelist{
+ 
+     position: absolute;
+     top: 70px;
+     left: 40px;
+   
+ }
+ .imgt{
+      
+         display: block;
+         width: 50px;
+         height: 50px;
+ 
+    
+     
+     }
+ 
+     td{
+       
+        font-size: 12px;
+        font-family: "Jost", sans-serif;
+      /* touch-action: double-tap-zoom; */
+     }
+     th{
+         font-style: unset;
+         font-size:13px;
+         font-family: "Jost", sans-serif;
+     }
+    
+     /* h5{
+         font-weight: 500;
+         font-style: normal;
+     font-family: "Roboto", sans-serif;
+     } */
+ 
+    #buttondelete{
+  padding: 5px;
+  font-size: small;
+  
+    }
